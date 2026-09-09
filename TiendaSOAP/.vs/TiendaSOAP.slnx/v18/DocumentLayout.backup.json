@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Downloads\\TiendaSOAP_Backend\\TiendaSOAP\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\services\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\services\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\data\\tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\data\\tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|c:\\users\\pc\\documents\\deberprogram\\tiendasoap\\tiendasoap\\tiendasoap\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B40EC34-A035-07CD-FFDE-AEC0FF86E84E}|TiendaSOAP\\TiendaSOAP.csproj|solutionrelative:tiendasoap\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Program.cs",
+              "RelativeDocumentMoniker": "TiendaSOAP\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Program.cs",
+              "RelativeToolTip": "TiendaSOAP\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T23:11:41.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "TiendaSOAP\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Services\\ProductoService.cs",
+              "RelativeToolTip": "TiendaSOAP\\Services\\ProductoService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T23:09:54.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Services\\IProductoService.cs",
+              "RelativeDocumentMoniker": "TiendaSOAP\\Services\\IProductoService.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Services\\IProductoService.cs",
+              "RelativeToolTip": "TiendaSOAP\\Services\\IProductoService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T23:09:40.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "TiendaSOAP\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Models\\Producto.cs",
+              "RelativeToolTip": "TiendaSOAP\\Models\\Producto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T23:09:00.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TiendaDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Data\\TiendaDBContext.cs",
+              "RelativeDocumentMoniker": "TiendaSOAP\\Data\\TiendaDBContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Data\\TiendaDBContext.cs",
+              "RelativeToolTip": "TiendaSOAP\\Data\\TiendaDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T23:06:55.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "TiendaSOAP\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\Models\\Categoria.cs",
+              "RelativeToolTip": "TiendaSOAP\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T23:08:08.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\appsettings.json",
+              "RelativeDocumentMoniker": "TiendaSOAP\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Documents\\DeberProgram\\TiendaSOAP\\TiendaSOAP\\TiendaSOAP\\appsettings.json",
+              "RelativeToolTip": "TiendaSOAP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-25T23:12:08.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\TiendaSOAP_Backend\\TiendaSOAP\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\TiendaSOAP_Backend\\TiendaSOAP\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\TiendaSOAP_Backend\\TiendaSOAP\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\TiendaSOAP_Backend\\TiendaSOAP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-25T23:11:57.516Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

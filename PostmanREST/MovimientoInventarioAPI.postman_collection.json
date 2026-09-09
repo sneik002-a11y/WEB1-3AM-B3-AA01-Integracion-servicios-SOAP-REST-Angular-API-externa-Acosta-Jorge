@@ -1,0 +1,154 @@
+{
+  "info": {
+    "_postman_id": "b00f6d57-81e2-4fcc-9a1c-db8fea73989e",
+    "name": "MovimientoInventarioAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57563847",
+    "_collection_link": "https://go.postman.co/collection/57563847-b00f6d57-81e2-4fcc-9a1c-db8fea73989e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "ObtenerMovimientos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5222/api/MovimientoInventario",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5222",
+          "path": [
+            "api",
+            "MovimientoInventario"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ObtenerMovimiento",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5222/api/MovimientoInventario/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5222",
+          "path": [
+            "api",
+            "MovimientoInventario",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ObtenerMovimientosPorProducto",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5222/api/MovimientoInventario/producto/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5222",
+          "path": [
+            "api",
+            "MovimientoInventario",
+            "producto",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "AgregarMovimiento",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"idProducto\": 1, \"tipoMovimiento\": \"ENTRADA\", \"cantidad\": 20, \"usuario\": \"jacosta\", \"observacion\": \"Reposición de stock\" }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5222/api/MovimientoInventario",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5222",
+          "path": [
+            "api",
+            "MovimientoInventario"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ActualizarMovimiento",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"idMovimiento\": 5, \"idProducto\": 1, \"tipoMovimiento\": \"ENTRADA\", \"cantidad\": 30, \"usuario\": \"jacosta\", \"observacion\": \"Corrección: se había registrado mal la cantidad\" }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5222/api/MovimientoInventario/5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5222",
+          "path": [
+            "api",
+            "MovimientoInventario",
+            "5"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "EliminarMovimiento",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5222/api/MovimientoInventario/5 ",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5222",
+          "path": [
+            "api",
+            "MovimientoInventario",
+            "5 "
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

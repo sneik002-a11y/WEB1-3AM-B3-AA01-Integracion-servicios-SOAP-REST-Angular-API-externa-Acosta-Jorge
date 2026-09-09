@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <span class="navbar-brand">TiendaSOAP</span>
+  <div class="navbar-nav">
+    <a class="nav-link" routerLink="/productos" routerLinkActive="active">
+      Productos <small class="text-info">(SOAP)</small>
+    </a>
+    <a class="nav-link" routerLink="/categorias" routerLinkActive="active">
+      Categorías <small class="text-info">(SOAP)</small>
+    </a>
+    <a class="nav-link" routerLink="/movimientos" routerLinkActive="active">
+      Movimientos <small class="text-warning">(REST)</small>
+    </a>
+    <a class="nav-link" routerLink="/catalogo" routerLinkActive="active">
+      Catálogo Externo <small class="text-success">(API externa)</small>
+    </a>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
