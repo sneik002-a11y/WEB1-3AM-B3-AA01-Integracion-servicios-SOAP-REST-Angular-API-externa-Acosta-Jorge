@@ -20,7 +20,7 @@ El sistema administra el catálogo de productos de una tienda y controla sus mov
 ### Entidades y relación entre ellas
 
 ```
-Categoria (1) ──────< (N) Producto (1) ──────< (N) Movimiento\\\\\\\_Inventario
+Categoria (1) ──────< (N) Producto (1) ──────< (N) Movimiento_Inventario
 ```
 
 * **Categoria**: clasifica los productos (ej. Bebidas, Snacks, Aseo).
@@ -56,7 +56,7 @@ Las tres tablas viven en la misma base de datos: **`TiendaSOAPDB`**.
 │   ├── Program.cs
 │   ├── appsettings.json
 │   ├── script-tiendasoap.sql         → Crea la BD + tablas Categoria/Producto
-│   ├── alter-movimiento-inventario.sql → Agrega la tabla Movimiento\\\\\\\_Inventario
+│   ├── alter-movimiento-inventario.sql → Agrega la tabla Movimiento_Inventario
 │   └── README.md                     (README específico de este backend)
 │
 ├── 📁 MovimientoInventarioAPI/       → Backend REST
@@ -83,16 +83,16 @@ Las tres tablas viven en la misma base de datos: **`TiendaSOAPDB`**.
 2. Ejecuta **en este orden**:
 
    1. `TiendaSOAP/script-tiendasoap.sql` → crea la base `TiendaSOAPDB`, las tablas `Categoria` y `Producto` (con su relación FK), e inserta datos de prueba.
-   2. `TiendaSOAP/alter-movimiento-inventario.sql` → agrega la tabla `Movimiento\\\\\\\_Inventario` (con FK hacia `Producto`) e inserta movimientos de prueba.
+   2. `TiendaSOAP/alter-movimiento-inventario.sql` → agrega la tabla `Movimiento_Inventario` (con FK hacia `Producto`) e inserta movimientos de prueba.
 3. Verifica la conexión: ambos backends usan la cadena de conexión `TiendaConnection` en su `appsettings.json` respectivo:
 
 ```json
    "ConnectionStrings": {
-     "TiendaConnection": "Server=.\\\\\\\\\\\\\\\\SQLEXPRESS;Database=TiendaSOAPDB;Trusted\\\\\\\_Connection=True;TrustServerCertificate=True;"
+     "TiendaConnection": "Server=.\\SQLEXPRESS;Database=TiendaSOAPDB;Trusted_Connection=True;TrustServerCertificate=True;"
    }
    ```
 
-Ajusta el nombre de instancia de SQL Server (`.\\\\\\\\SQLEXPRESS`) según tu entorno local.
+Ajusta el nombre de instancia de SQL Server (`.\SQLEXPRESS`) según tu entorno local.
 
 \---
 
@@ -184,7 +184,7 @@ Ajusta el nombre de instancia de SQL Server (`.\\\\\\\\SQLEXPRESS`) según tu en
 
 \---
 
-## Notas para quien revisa el proyecto
+## Notas
 
 * Los tres proyectos deben ejecutarse **simultáneamente** (SOAP, REST y Angular) para que la aplicación funcione de punta a punta.
 * CORS está habilitado en ambos backends para aceptar peticiones desde `http://localhost:4200`.
